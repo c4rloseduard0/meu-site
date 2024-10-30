@@ -96,6 +96,7 @@ main .techs .cards-conteiner .card{
 main .techs .cards-container .card:nth-child(4){
     margin-right: 0em;
 }
-main .main-content .techs .cards-container .card img{
+main .techs .cards-container .card img{
     width: 60%;
+    transition: 0.2s ease-in-out;
 }
