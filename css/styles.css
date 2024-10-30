@@ -87,4 +87,9 @@ main .techs .cards-conteiner .card{
     background-color: #eee;
     border-radius: 8px;
     margin-right: 1.8em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2 ease-in-out;
 }
