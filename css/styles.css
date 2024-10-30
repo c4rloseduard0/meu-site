@@ -37,7 +37,6 @@ header h1{
     font-weight: 600;
     cursor: pointer;
 }
-
 header nav{
     display: flex;
     align-items: center;
@@ -46,4 +45,35 @@ header nav a{
     font-size: 1.3em;
     margin-right: 1.4em;
     padding: 14px;
+}
+header nav a:nth-child(4){
+    margin-right: 0em;
+}
+header h1:hover, a:hover{
+    color: #00E0FF;
+}
+/*Main content*/
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .main-content{
+    display:flex;
+    flex-direction: column;
+}
+main .main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+main .main-content .text{
+    margin-bottom: 10%;
+}
+main .main-content .text p{
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300px;
+    line-height: 1,6em;
+    padding: 0 5%;
 }
