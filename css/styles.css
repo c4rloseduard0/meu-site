@@ -1,4 +1,4 @@
-/*Reset CSS*/
+/Reset CSS/
 *{
     margin: 0;
     padding: 0;
@@ -53,14 +53,14 @@ header h1, a{
 header h1:hover, a:hover{
     color: #00e0ff;
 }
-/*main*/
+/main/
 main{
     padding: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*Main-content*/
+/Main-content/
 main .main-content{
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ main .main-content .text p{
     line-height: 1.6em;
     padding: 0 5%;
 }
-/*CARDS*/
+/CARDS/
 main .techs .cards-container{
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ main .techs .cards-container .card:hover{
 main .techs .cards-container .card:hover img{
     width: 70%;
 }
-/*Sobre Mim*/
+/Sobre Mim/
 main figure{
     display: flex;
     flex-direction: column;
@@ -127,91 +127,4 @@ main figure img{
 }
 main figure img:hover{
     box-shadow: 0px 0px 8px #00e0ff;
-}
-/*FOOTER*/
-footer{
-    background-color: #222;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer span{
-    font-size: 0.8em;
-    font-weight: 200;
-}
-/*Layout Responsivo*/
-/*Desktops e  Grandes Dispositivos*/
-@media(max-width:1200px) {
-    main{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .main-content{
-        width: 100%;
-        align-items: center;
-        margin-bottom: 10%;
-    }
-    main .main-content .text, .techs{
-        text-align: center;
-    }
-    main .main-content .text p{
-        width: 100%;
-        font-size: 0.9em;
-    }
-    main .techs .cards-container, .main-content .text p{
-        margin-top: 32px;
-    }
-}
-@media(max-width:1024px) {
-    main .techs .cards-container .card{
-        width: 100px;
-        height: 100px;
-    }
-    main .main-content .text h2, .main-content .techs h2{
-        font-size: 1.8em;
-    }
-    main figure img{
-        width: 250px;
-        height: 250px;
-    }
-}
-/*Tablets e Pequenos Dispositivos*/
-@media(max-width:768px) {
-    header{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    header h1{
-        font-size: 3.4em;
-        margin-bottom: 2%;
-    }
-}
-/*iPad e Tablets*/
-@media(max-width:480px) {
-    main .techs .cards-container .card{
-        width: 85px;
-        height: 85px;
-    }
-    main figure img{
-        width: 200px;
-        height: 200px;
-    }
-}
-@media(max-width:320px) {
-    main .techs .cards-container .card{
-        width: 50px;
-        height: 50px;
-    }
-    main figure img{
-        width: 150px;
-        height: 150px;
-    }
-    footer span{
-        text-align: center;
-    }
 }
